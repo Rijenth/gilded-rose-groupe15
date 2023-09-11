@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gilded Rose Test Aged Brie 1`] = `
+[
+  "Mise à jour du produit",
+  "Le produit est soit Aged Brie, soit Backstage passes",
+  "La qualité du produit est inférieure à 50, augmentation de la qualité",
+  "Le produit n'est pas Sulfuras, réduction de SellIn",
+  "Produit mis à jour",
+]
+`;
+
+exports[`Gilded Rose Test Backstage passes 1`] = `
+[
+  "Mise à jour du produit",
+  "Le produit est soit Aged Brie, soit Backstage passes",
+  "La qualité du produit est inférieure à 50, augmentation de la qualité",
+  "Le produit est Backstage passes",
+  "SellIn est inférieur à 11",
+  "La qualité est inférieure à 50, augmentation de la qualité",
+  "Le produit n'est pas Sulfuras, réduction de SellIn",
+  "Produit mis à jour",
+]
+`;
+
+exports[`Gilded Rose Test Conjured items 1`] = `
+[
+  "Mise à jour du produit",
+  "Le produit n'est ni Aged Brie ni Backstage passes",
+  "La qualité du produit est supérieure à 0",
+  "Le produit n'est pas Sulfuras, réduction de la qualité",
+  "Le produit n'est pas Sulfuras, réduction de SellIn",
+  "Produit mis à jour",
+]
+`;
+
+exports[`Gilded Rose Test Sulfuras 1`] = `
+[
+  "Mise à jour du produit",
+  "Le produit n'est ni Aged Brie ni Backstage passes",
+  "La qualité du produit est supérieure à 0",
+  "Produit mis à jour",
+]
+`;
+
+exports[`Gilded Rose Test normal item 1`] = `
+[
+  "Mise à jour du produit",
+  "Le produit n'est ni Aged Brie ni Backstage passes",
+  "La qualité du produit est supérieure à 0",
+  "Le produit n'est pas Sulfuras, réduction de la qualité",
+  "Le produit n'est pas Sulfuras, réduction de SellIn",
+  "Produit mis à jour",
+]
+`;
