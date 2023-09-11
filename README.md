@@ -3,8 +3,8 @@
 ## Team
 
 - [Louis Leveneur](https://github.com/LFLeveneur)
-- [Rijenth](https://github.com/Rijenth)
-- [Adrien]()
+- [Rijenth ](https://github.com/Rijenth)
+- [Adrien ]()
 - [Fabrice Pivert]()
 
 ## Specification
