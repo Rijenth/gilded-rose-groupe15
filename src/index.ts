@@ -29,9 +29,17 @@ export class GildedRose {
     if (item.name != "Sulfuras, Hand of Ragnaros") {
       console.log("My item is not Sulfuras, Hand of Ragnaros and loose 1 quality");
 
+      let decreased_amount = 1;
+
+      if (item.name === "Conjured") {
+        console.log("My item is Conjured and loose an extra quality");
+
+        decreased_amount++;
+      }
+
       this.items.find((element, index) => {
         if (element.name === item.name) {
-          this.items[index].quality = this.items[index].quality - 1;
+          this.items[index].quality = this.items[index].quality - decreased_amount;
         }
       });
 
@@ -53,7 +61,7 @@ export class GildedRose {
     }
   }
 
-  update_quality_based_on_item_name(item: Item): void {
+  update_quality_when_sell_in_is_negative(item: Item): void {
     console.log("My item sellIn is less than 0");
 
     if (item.name === "Aged Brie") {
@@ -131,7 +139,7 @@ export class GildedRose {
       if (updated === false) {
         console.log("My item is not Aged Brie or Backstage passes to a TAFKAL80ETC concert");
 
-        this.decrease_quality(this.items[i]);
+        this.decrease_quality(this.items[i]); /* Perd un de qualité */
       }
 
       if (this.items[i].name != "Sulfuras, Hand of Ragnaros") {
@@ -146,7 +154,7 @@ export class GildedRose {
         continue;
       }
 
-      this.update_quality_based_on_item_name(this.items[i]);
+      this.update_quality_when_sell_in_is_negative(this.items[i]);
     }
 
     console.log("My items", this.items);

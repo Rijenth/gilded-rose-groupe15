@@ -57,4 +57,12 @@ describe("Gilded Rose", function () {
             gildedRose.updateQuality();
         });
     });
+
+    it("Gilded Rose updateQuality with a conjured item", function () {
+        runGoldenMaster(async () => {
+            const gildedRose = new GildedRose([new Item("Conjured", 2, 10)]);
+
+            gildedRose.updateQuality();
+        });
+    });
 });
