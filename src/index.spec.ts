@@ -44,7 +44,7 @@ describe("Gilded Rose", function () {
 
     it("Gilded Rose updateQuality with one Sulfuras, Hand of Ragnaros with sellIn = 0", function () {
         runGoldenMaster(async () => {
-            const gildedRose = new GildedRose([new Item("Sulfuras, Hand of Ragnaros", 0, 50)]);
+            const gildedRose = new GildedRose([new Item("Sulfuras, Hand of Ragnaros", 0, 80)]);
 
             gildedRose.updateQuality();
         });
@@ -52,7 +52,7 @@ describe("Gilded Rose", function () {
 
     it("Gilded Rose updateQuality with one Sulfuras, Hand of Ragnaros with sellIn > 0", function () {
         runGoldenMaster(async () => {
-            const gildedRose = new GildedRose([new Item("Sulfuras, Hand of Ragnaros", 2, 50)]);
+            const gildedRose = new GildedRose([new Item("Sulfuras, Hand of Ragnaros", 2, 80)]);
 
             gildedRose.updateQuality();
         });
