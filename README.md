@@ -4,10 +4,10 @@
 
 GROUPE 15
 
-- [Rijenth ARUMAINATHAN](https://github.com/rijenth);
-- [Adrien HA](https://github.com/FabPiv);
-- [Louis LEVENEUR](https://github.com/lfleveneur);
-- [Fabrice PIVERT](https://github.com/FabPiv);
+- [Rijenth ARUMAINATHAN](https://github.com/rijenth)
+- [Adrien HA](https://github.com/FabPiv)
+- [Louis LEVENEUR](https://github.com/lfleveneur)
+- [Fabrice PIVERT](https://github.com/FabPiv)
 
 ## Specification
 
