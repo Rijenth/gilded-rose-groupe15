@@ -1,5 +1,14 @@
 # gilded-rose
 
+## Participants
+
+GROUPE 15
+
+- [Rijenth ARUMAINATHAN](https://github.com/rijenth)
+- [Adrien HA](https://github.com/FabPiv)
+- [Louis LEVENEUR](https://github.com/lfleveneur)
+- [Fabrice PIVERT](https://github.com/FabPiv)
+
 ## Specification
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
